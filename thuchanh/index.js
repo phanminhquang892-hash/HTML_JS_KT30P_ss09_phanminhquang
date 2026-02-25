@@ -11,11 +11,11 @@ function TotalAmount(revenues) {
 
 console.log(TotalAmount(revenues));
 
-function profit(revenues) {
+function netProfits(revenues) {
     let result = revenues.map(revenue => revenue * 0.9);
     console.log("Lợi nhuận ròng:", result);
     return result;
 }
-let total = profit(revenues);
+let total = netProfits(revenues);
 
 
